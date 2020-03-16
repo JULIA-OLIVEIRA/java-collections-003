@@ -12,7 +12,7 @@ public class Main {
 
 	}
 	
-	private void start() { // criação de um método privado
+	private void start() { // criação de um método privado, método visto apenas na classe atual
 		
 		Cachorroo primeiroCachorroo = new Cachorroo("tiburcio");
 		Cachorroo segundoCachorroo = new Cachorroo("joão");

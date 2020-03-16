@@ -15,10 +15,10 @@ public class Main {
 	private void start() { // criação de um método privado
 		
 		Cachorroo primeiroCachorroo = new Cachorroo("tiburcio");
-		primeiroCachorroo.setCor("azul");
-		
 		Cachorroo segundoCachorroo = new Cachorroo("joão");
 		
+		primeiroCachorroo.setCor("azul");
+					
 		List<Cachorroo> listaDeCachorroos = new ArrayList <Cachorroo>(); 
 		listaDeCachorroos.add(primeiroCachorroo);
 		listaDeCachorroos.add(segundoCachorroo);
@@ -35,22 +35,23 @@ public class Main {
 		}
 		
 		Gatoo primeiroGatoo = new Gatoo();
-		primeiroGatoo.setNome("yoru);"
+		primeiroGatoo.setNome("yoru");
+		Gatoo segundoGatoo = new Gatoo("vermelho");
 		segundoGatoo.setNome("xuxu");
 		
-		Gatoo segundoGatoo = new Gatoo("vermelho");
 		
-		List<Gatoo listaDeGatoos = new ArrayList<Gatoo>();
+		
+		List<Gatoo> listaDeGatoos = new ArrayList<Gatoo>();
 		listaDeGatoos.add(primeiroGatoo);
 		listaDeGatoos.add(segundoGatoo);
 		
-		for(Gatoo : gatoo listaDeGatoos) {
+		for(Gatoo gatoo : listaDeGatoos) {
 			
 			gatoo.som();
 			gatoo.dizerMeuNome();
-			gato.oQueFacoDuranteANoite();
+			gatoo.oQueFacoDuranteANoite();
 			
-			System.out.println("a cor do gato" + gato.setCor());
+			System.out.println("a cor do gato: " + gatoo.getCor());
 			System.out.println("-------");
 			
 		}

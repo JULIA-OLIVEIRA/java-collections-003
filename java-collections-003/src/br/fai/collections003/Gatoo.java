@@ -2,11 +2,11 @@ package br.fai.collections003;
 
 public class Gatoo extends Animall{
 		
-		public Gato() {
+		public Gatoo() {
 			setCor("branco");			
 		}
 		
-		public Gato(String cor) {
+		public Gatoo(String cor) {
 			setCor(cor);
 		}
 		

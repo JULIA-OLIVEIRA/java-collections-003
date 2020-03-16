@@ -11,7 +11,7 @@ public class Cachorroo extends Animall {
 		System.out.println("eu gosto de latir");
 	}
 	
-	private void oQueGostoDeFazer() {
+	public void oQueGostoDeFazer() {
 		System.out.println("gosto de morder carteiros");
 	}
 

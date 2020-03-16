@@ -11,7 +11,7 @@ public class Cachorroo extends Animall {
 		System.out.println("eu gosto de latir");
 	}
 	
-	public void oQueGostoDeFazer() {
+	public void oQueGostoDeFazer() { // método publico = pode ser visto pelas outras classes
 		System.out.println("gosto de morder carteiros");
 	}
 

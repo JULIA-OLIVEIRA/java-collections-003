@@ -1,8 +1,9 @@
 package br.fai.collections003;
 
-public class Animall {
+public abstract class Animall { // classe abstrata nunca vai receber instancia
+	
 	public void som() {
-		System.out.println("este é o som" + "padrão de um animal: zzzz");
+		System.out.println("este é o som padrão de um animal: zzzz");
 	}
 	
 	public void dizerMeuNome() {
@@ -10,12 +11,13 @@ public class Animall {
 	}
 	
 	public void dizerMinhaIdade() {
-		System.out.println("minha idade é: xxx");
+		System.out.println("minha idade é: " + getNome());
 	}
 	
 	private String  cor = "preto";
 	private int idade = 5;
 	private String nome = "não definido";
+	
 	
 	public String getCor() {
 		return cor;
